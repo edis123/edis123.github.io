@@ -1,0 +1,88 @@
+html, body{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+
+    background: url(bckgr.png);
+   
+}
+header span{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(248, 248, 237);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+footer span{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+   padding-top: 30px;
+   
+}
+header, footer{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+ }
+ header{
+    top:0;
+    border-bottom: 3px solid rgba(83, 19, 139, 0.938);
+    background: url(bckgr-headr.png);
+    height: 100px;
+ }
+
+ footer{
+
+    bottom:0;
+    border-top: 3px solid rgb(190, 97, 215, 0.938);
+    background: url(bckgr-footer.png);
+    height: 100px;
+ }
+ .main
+ {
+    position:absolute;
+    bottom: 100px;
+    top:100px;
+    overflow-y: auto;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+   
+ }
+ 
+ .inline{
+    display: inline-flex;
+ }
+ .bubble1{
+    display: flex;
+    justify-content: flex-end;
+ }
+ .bubble2{
+    justify-self: u;
+ }
+.bubble1 span{
+min-width: 60px;
+max-width: 700px;
+padding: 14px 18px;
+margin: 6px 8px;
+background-color: rgb(196, 207, 207);
+border-radius: 16px 16px 16px 0;
+border: 2px solid rgba(106, 104, 103, 0.938);
+}
+.bubble2 span{
+ min-width: 60px;
+max-width: 700px;
+padding: 14px 18px;
+margin: 6px 8px;
+background-color: rgb(196, 207, 207) ;
+border-radius: 16px 16px 16px 0;
+border: 2px solid rgba(106, 104, 103, 0.938);
+}
+

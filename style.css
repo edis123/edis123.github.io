@@ -1,0 +1,274 @@
+
+
+body {
+
+    width: 100%;
+    height:100%;
+    margin: 0 0;
+    background: url(https://wrigglesolutions.com/images/slide-02-bg.jpg)center;
+    background-size: cover;
+    position: absolute;
+    min-width: auto;
+    min-height: auto;
+}
+
+html {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*.big-container::before{
+ 
+   background-image: url(https://wrigglesolutions.com/images/slide-02-bg.jpg);
+   background-size:cover;
+   position: absolute;
+   min-width: auto;
+   min-height: auto;
+   
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    
+}
+*/
+.container {
+    /* border-top: 100px solid rgb(6, 10, 14);
+    border-bottom: 100px solid rgb(6, 10, 14);*/
+    margin: 140px auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#linkdn {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#linkdn img {
+    box-shadow: 50px 0px 50px 50px rgba(237, 239, 243, 0.923);
+    border-radius: 70px;
+}
+
+#git {
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#git img {
+    box-shadow: 50px 0px 50px 50px rgba(237, 239, 243, 0.923);
+    border-radius: 70px;
+}
+
+@keyframes bckg {
+    0% {
+        color: rgba(185, 205, 222, 0.37);
+    }
+
+    10% {
+        color: rgba(94, 147, 193, 0.483);
+    }
+
+    20% {
+        color: rgba(72, 140, 200, 0.333);
+    }
+
+    30% {
+        color: rgba(40, 129, 206, 0.532);
+    }
+
+    40% {
+        color: rgba(32, 55, 207, 0.456);
+    }
+
+    50% {
+        color: rgba(53, 6, 182, 0.528);
+    }
+
+    60% {
+        color: rgba(5, 83, 146, 0.2);
+    }
+
+    70% {
+        color: rgba(4, 66, 120, 0.401);
+    }
+
+    80% {
+        color: rgba(1, 50, 93, 0.268);
+    }
+
+    90% {
+        color: rgba(4, 10, 113, 0.2);
+    }
+
+    100% {
+        color: rgba(15, 3, 81, 0.2);
+    }
+
+}
+
+/*
+#shapes{
+
+    width: 5px;
+    height: 30px;
+    background-color: black;
+    position:absolute;
+    animation-name: shps;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+@keyframes shps {
+    0%{ left: 00px;
+         bottom:00px;}
+    20%{ left: 00px;
+        bottom:80px;}
+    40%{ left: 00px;
+        bottom:30px;}
+    60%{ left: 00px;
+        bottom:110px;}
+    80%{ left: 00px;
+        bottom:00px;}
+    100%{ left:00px;
+        bottom:60px;}
+    
+}
+#shapes2{
+
+    width: 5px;
+    height: 30px;
+    background-color: black;
+    position:absolute;
+    margin: auto auto;
+    animation-name: shps2;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+@keyframes shps2 {
+    0%{ left: 300px;
+        bottom:00px;}
+    20%{ left: 300px;
+        bottom:80px;}
+    40%{ left: 300px;
+        bottom:30px;}
+    60%{ left: 300px;
+        bottom:110px;}
+    80%{ left: 300px;
+        bottom:00px;}
+    100%{ left:300px;
+        bottom:60px;}
+    
+}
+#shapes3{
+
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: black;
+    position:absolute;
+    animation-name: shps3;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+@keyframes shps3 {
+    0%{ left: 00px;
+         bottom:00px;}
+    20%{ left: 300px;
+        bottom:80px;}
+    40%{ left: 00px;
+        bottom:30px;}
+    60%{ left: 300px;
+        bottom:110px;}
+    80%{ left: 00px;
+        bottom:00px;}
+    100%{ left: 300px;
+        bottom:80px;}
+    
+}
+#shapes5{
+position:absolute; 
+ height: 150px;
+ width: 2px;
+ background-color: rgb(6, 10, 14);
+ left: 150px;
+ bottom:0px;
+}
+#shapes4{
+    position:absolute;
+     height: 40px;
+     width: 40px;
+     border-radius: 50px;
+     border:2px solid black;
+     background-color:rgb(116, 116, 179);
+     left: 130px;
+     bottom:55px;
+    
+    }
+
+#table{
+width: 305px;
+height: 150px;
+position:absolute;
+bottom: 00px;
+left:0px;
+background-color: rgb(116, 116, 179);
+border: 2px solid rgb(6, 241, 104);
+}*/
+
+#salute {
+
+    font-family: Caveat;
+    font-size: 70px;
+    width: auto;
+    min-width: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+#salute h1,
+a {
+    animation-name: bckg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+
+
+#image img {
+    opacity: 0.9;
+    border-radius: 350px;
+    border: 10px groove rgba(68, 132, 196, 0.843);
+    min-width: 150px;
+    min-height: 600px;
+    filter: contrast(23) sepia(100%) hue-rotate(190deg) saturate(500%);
+    box-shadow: 50px 0px 50px 50px rgba(188, 193, 202, 0.382);
+}
+
+a:hover {
+    color: aliceblue;
+}
