@@ -73,7 +73,7 @@ max-width: 700px;
 padding: 14px 18px;
 margin: 6px 8px;
 background-color: rgb(196, 207, 207);
-border-radius: 16px 16px 16px 0;
+border-radius: 16px 0px 16px 16px;
 border: 2px solid rgba(106, 104, 103, 0.938);
 }
 .bubble2 span{
